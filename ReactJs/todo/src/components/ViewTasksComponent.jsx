@@ -109,7 +109,7 @@ export class ViewTaskComponent extends Component {
                                                 </div>
                                                 <div class="col-auto m-1 p-0 todo-actions">
                                                     <div class="row d-flex align-items-center justify-content-end">
-                                                        <h5 class="m-0 p-0 px-2">
+                                                        <h5 class="m-0 p-0 px-2 pointer" >
                                                             <FontAwesomeIcon icon={faTrash} onClick={this.handleDeleteTask.bind(this, t.id)}    ></FontAwesomeIcon>
                                                         </h5>
                                                     </div>
